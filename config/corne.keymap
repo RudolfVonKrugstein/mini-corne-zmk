@@ -74,10 +74,10 @@
                 };
                 layer_intl {
                         bindings = <
-   &none   &none  &none        &none        &none         &none         &none    &none         &none        &none          &none      &none
-   &none   &none  &none        &none        &none         &none         &none    &none         &none        &none          &none      &none
-   &none   &none  &none        &none        &none         &none         &none    &none         &none        &none          &none      &none
-                               &none        &none         &none         &none      &none       &none
+   &none   &none  &kp RA(S)    &kp RA(Y)    &kp RA(P)     &kp RA(Q)     &kp RA(Q) &kp RA(P) &kp RA(Y)    &kp RA(S) &none      &none
+   &none   &none  &kp LWIN     &kp LALT     &kp LCTRL     &none         &none     &kp RCTRL &kp LALT     &kp RWIN  &none      &none
+   &none   &none  &none        &none        &none         &none         &none     &none     &none        &none     &none      &none
+                               &none        &none         &trans        &trans    &none     &none
                         >;
                 };
                 layer_mouse {
