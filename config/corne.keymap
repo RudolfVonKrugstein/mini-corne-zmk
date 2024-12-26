@@ -75,6 +75,56 @@
                 key-positions = <LB3 LB4>;
                 bindings = <&kp RA(S)>;
             };
+            combo_0 {
+                timeout-ms = <50>;
+                key-positions = <RB0 RB1>;
+                bindings = <&kp N0>;
+            };
+            combo_1 {
+                timeout-ms = <50>;
+                key-positions = <RB1 RB2>;
+                bindings = <&kp N1>;
+            };
+            combo_2 {
+                timeout-ms = <50>;
+                key-positions = <RB2 RB3>;
+                bindings = <&kp N2>;
+            };
+            combo_3 {
+                timeout-ms = <50>;
+                key-positions = <RB3 RB4>;
+                bindings = <&kp N3>;
+            };
+            combo_4 {
+                timeout-ms = <50>;
+                key-positions = <RM1 RM2>;
+                bindings = <&kp N4>;
+            };
+            combo_5 {
+                timeout-ms = <50>;
+                key-positions = <RM2 RM3>;
+                bindings = <&kp N5>;
+            };
+            combo_6 {
+                timeout-ms = <50>;
+                key-positions = <RM3 RM4>;
+                bindings = <&kp N6>;
+            };
+            combo_7 {
+                timeout-ms = <50>;
+                key-positions = <RT1 RT2>;
+                bindings = <&kp N7>;
+            };
+            combo_8 {
+                timeout-ms = <50>;
+                key-positions = <RT2 RT3>;
+                bindings = <&kp N8>;
+            };
+            combo_9 {
+                timeout-ms = <50>;
+                key-positions = <RT3 RT4>;
+                bindings = <&kp N9>;
+            };
         };
         keymap {
                 compatible = "zmk,keymap";
