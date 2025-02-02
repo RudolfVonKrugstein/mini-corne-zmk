@@ -58,58 +58,50 @@
 
                 default_layer {
                         bindings = <
-   &none   &lt 6 Q &kp       W &kp E       &kp R        &kp   T      &lt 5 Y    &kp U        &kp I       &kp O         &kp P    &none
-   &none   &kp   A &lhm LWIN S &lhm LALT D &lhm LCTRL F &lt 4 G      &kp H    &rhm RCTRL J &rhm LALT K &rhm LWIN L   &kp BSPC &none
-   &none   &kp   Z &kp       X &kp C       &kp V        &lt 1 B      &lt 2 N    &kp M        &kp COMMA   &kp DOT       &kp TAB  &none
-                               &to 1       &sl 3        &sk LSHIFT   &sk RSHIFT &lt 3 SPACE  &to 1
-                        >;
-                };
-                layer_num {
-                        bindings = <
-   &none &trans  &trans &trans &trans &trans &none  &kp N7 &kp N8 &kp N9 &none  &none
-   &none &trans  &trans &trans &trans &trans &to 0  &kp N4 &kp N5 &kp N6 &trans &none
-   &none &trans  &trans &trans &trans &trans &kp N0 &kp N1 &kp N2 &kp N3 &trans &none
-                        &to 0  &none  &trans &trans &none  &to 0
-                        >;
-                };
-                layer_fn {
-                        bindings = <
-   &none   &kp F1  &kp      F2  &kp F3       &kp F4        &kp   F5      &none  &trans &trans &trans &none  &none
-   &none   &kp F6  &lhm LWIN F7 &lhm LALT F8 &lhm LCTRL F9 &lt 3 F10     &to 0  &trans &trans &trans &trans &none
-   &none   &kp F11 &kp F12      &kp F13      &kp F14       &kp F15       &trans &trans &trans &trans &trans &none
-                                &to 0        &none         &trans        &trans &none  &to 0
+   &none   DEF_TOPROW_LEFT      DEF_TOPROW_RIGHT    &none
+   &none   DEF_MIDROW_LEFT      DEF_MIDROW_RIGHT    &none
+   &none   DEF_BOTROW_LEFT      DEF_BOTROW_RIGHT    &none
+           DEF_THUMBS_LEFT      DEF_THUMBS_RIGHT
                         >;
                 };
                 layer_sym {
                         bindings = <
-   &none   &kp PERCENT  &kp  LPAR      &kp RPAR       &kp SEMICOLON    &kp CARET    &kp AMPERSAND &kp DOUBLE_QUOTES &kp LESS_THAN  &kp GREATER_THAN &kp SINGLE_QUOTE  &none
-   &none   &kp QUESTION &lhm LWIN LBKT &lhm LALT RBKT &lhm LCTRL COLON &kp SLASH    &kp HASH      &rhm RCTRL EQUAL  &rhm LALT PLUS &rhm LWIN STAR   &kp EXCLAMATION   &none
-   &none   &kp AT_SIGN  &kp  LBRC      &kp RBRC     &kp DOLLAR       &kp TILDE    &kp MINUS     &kp UNDERSCORE    &kp GRAVE      &kp PIPE         &kp BACKSLASH     &none
-                                       &none          &none            &caps_word   &caps_word    &kp ENTER         &none
+   &none   SYM_TOPROW_LEFT      SYM_TOPROW_RIGHT    &none
+   &none   SYM_MIDROW_LEFT      SYM_MIDROW_RIGHT    &none
+   &none   SYM_BOTROW_LEFT      SYM_BOTROW_RIGHT    &none
+           SYM_THUMBS_LEFT      SYM_THUMBS_RIGHT
                         >;
                 };
                 layer_nav {
                         bindings = <
-   &none   &none  &none    &none     &none     &none         &kp HOME &kp PG_DN  &kp PG_UP &kp END   &none       &none
-   &none   &none  &kp LWIN &kp LALT  &kp LCTRL &none         &kp LEFT &kp DOWN   &kp UP    &kp RIGHT &trans      &none
-   &none   &none  &none    &none     &none     &none         &none    &kp ESCAPE &none     &none     &none       &trans
-                           &none     &none     &trans        &trans      &none      &none
+   &none   NAV_TOPROW_LEFT      NAV_TOPROW_RIGHT    &none
+   &none   NAV_MIDROW_LEFT      NAV_MIDROW_RIGHT    &none
+   &none   NAV_BOTROW_LEFT      NAV_BOTROW_RIGHT    &none
+           NAV_THUMBS_LEFT      NAV_THUMBS_RIGHT
+                        >;
+                };
+                layer_num {
+                        bindings = <
+   &none   NUM_TOPROW_LEFT      NUM_TOPROW_RIGHT    &none
+   &none   NUM_MIDROW_LEFT      NUM_MIDROW_RIGHT    &none
+   &none   NUM_BOTROW_LEFT      NUM_BOTROW_RIGHT    &none
+           NUM_THUMBS_LEFT      NUM_THUMBS_RIGHT
                         >;
                 };
                 layer_mouse {
                         bindings = <
-   &none   &none  &none          &mmv MOVE_UP   &none           &msc MOVE_DOWN   &none   &mkp LCLK &mkp MCLK    &mkp RCLK      &none      &none
-   &none   &none  &mmv MOVE_LEFT &mmv MOVE_DOWN &mmv MOVE_RIGHT &msc MOVE_UP &none   &none     &trans       &none          &trans     &none
-   &none   &none  &none        &none            &none           &none          &none   &none     &none        &none          &trans     &none
-                               &none            &none           &trans         &trans  &none     &none
+   &none   MSE_TOPROW_LEFT      MSE_TOPROW_RIGHT    &none
+   &none   MSE_MIDROW_LEFT      MSE_MIDROW_RIGHT    &none
+   &none   MSE_BOTROW_LEFT      MSE_BOTROW_RIGHT    &none
+           MSE_THUMBS_LEFT      MSE_THUMBS_RIGHT
                         >;
                 };
                 layer_blt {
                         bindings = <
-   &none   &none  &sys_reset   &bootloader  &none         &none         &bt BT_CLR   &none        &bootloader  &sys_reset   &none   &none
-   &none   &none  &none        &none        &none         &none         &none        &none        &none        &none        &none        &none
-   &none   &none  &none        &none        &none         &none         &bt BT_SEL 0 &bt BT_SEL 1 &bt BT_SEL 2 &bt BT_SEL 3 &bt BT_SEL 4 &none
-                               &none        &none         &none         &none        &none        &none
+   &none   BLT_TOPROW_LEFT      BLT_TOPROW_RIGHT    &none
+   &none   BLT_MIDROW_LEFT      BLT_MIDROW_RIGHT    &none
+   &none   BLT_BOTROW_LEFT      BLT_BOTROW_RIGHT    &none
+           BLT_THUMBS_LEFT      BLT_THUMBS_RIGHT
                         >;
                 };
         };
