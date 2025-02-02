@@ -1,5 +1,7 @@
 manifest:
   remotes:
+    - name: my_repos
+      url-base: https://github.com/RudolfVonKrugstein
     - name: zmkfirmware
       url-base: https://github.com/zmkfirmware
     - name: mouse_pull_request
@@ -13,6 +15,9 @@ manifest:
       remote: mouse_pull_request
       revision: feat/pointers-with-input-processors
       import: app/west.yml
+    - name: kbd_layout
+      remote: my_repos
+      revision: main
     - name: zmk-helpers
       remote: urob
       revision: main
