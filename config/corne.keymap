@@ -58,49 +58,49 @@
 
                 default_layer {
                         bindings = <
-   &none   DEF_TOPROW_LEFT      DEF_TOPROW_RIGHT    &none
-   &none   DEF_MIDROW_LEFT      DEF_MIDROW_RIGHT    &none
-   &none   DEF_BOTROW_LEFT      DEF_BOTROW_RIGHT    &none
+           DEF_TOPROW_LEFT      DEF_TOPROW_RIGHT         
+           DEF_MIDROW_LEFT      DEF_MIDROW_RIGHT         
+           DEF_BOTROW_LEFT      DEF_BOTROW_RIGHT         
            DEF_THUMBS_LEFT      DEF_THUMBS_RIGHT
                         >;
                 };
                 layer_sym {
                         bindings = <
-   &none   SYM_TOPROW_LEFT      SYM_TOPROW_RIGHT    &none
-   &none   SYM_MIDROW_LEFT      SYM_MIDROW_RIGHT    &none
-   &none   SYM_BOTROW_LEFT      SYM_BOTROW_RIGHT    &none
+           SYM_TOPROW_LEFT      SYM_TOPROW_RIGHT         
+           SYM_MIDROW_LEFT      SYM_MIDROW_RIGHT         
+           SYM_BOTROW_LEFT      SYM_BOTROW_RIGHT         
            SYM_THUMBS_LEFT      SYM_THUMBS_RIGHT
                         >;
                 };
                 layer_nav {
                         bindings = <
-   &none   NAV_TOPROW_LEFT      NAV_TOPROW_RIGHT    &none
-   &none   NAV_MIDROW_LEFT      NAV_MIDROW_RIGHT    &none
-   &none   NAV_BOTROW_LEFT      NAV_BOTROW_RIGHT    &none
+           NAV_TOPROW_LEFT      NAV_TOPROW_RIGHT         
+           NAV_MIDROW_LEFT      NAV_MIDROW_RIGHT         
+           NAV_BOTROW_LEFT      NAV_BOTROW_RIGHT         
            NAV_THUMBS_LEFT      NAV_THUMBS_RIGHT
                         >;
                 };
                 layer_num {
                         bindings = <
-   &none   NUM_TOPROW_LEFT      NUM_TOPROW_RIGHT    &none
-   &none   NUM_MIDROW_LEFT      NUM_MIDROW_RIGHT    &none
-   &none   NUM_BOTROW_LEFT      NUM_BOTROW_RIGHT    &none
+           NUM_TOPROW_LEFT      NUM_TOPROW_RIGHT         
+           NUM_MIDROW_LEFT      NUM_MIDROW_RIGHT         
+           NUM_BOTROW_LEFT      NUM_BOTROW_RIGHT         
            NUM_THUMBS_LEFT      NUM_THUMBS_RIGHT
                         >;
                 };
                 layer_mouse {
                         bindings = <
-   &none   MSE_TOPROW_LEFT      MSE_TOPROW_RIGHT    &none
-   &none   MSE_MIDROW_LEFT      MSE_MIDROW_RIGHT    &none
-   &none   MSE_BOTROW_LEFT      MSE_BOTROW_RIGHT    &none
+           MSE_TOPROW_LEFT      MSE_TOPROW_RIGHT         
+           MSE_MIDROW_LEFT      MSE_MIDROW_RIGHT         
+           MSE_BOTROW_LEFT      MSE_BOTROW_RIGHT         
            MSE_THUMBS_LEFT      MSE_THUMBS_RIGHT
                         >;
                 };
                 layer_blt {
                         bindings = <
-   &none   BLT_TOPROW_LEFT      BLT_TOPROW_RIGHT    &none
-   &none   BLT_MIDROW_LEFT      BLT_MIDROW_RIGHT    &none
-   &none   BLT_BOTROW_LEFT      BLT_BOTROW_RIGHT    &none
+           BLT_TOPROW_LEFT      BLT_TOPROW_RIGHT         
+           BLT_MIDROW_LEFT      BLT_MIDROW_RIGHT         
+           BLT_BOTROW_LEFT      BLT_BOTROW_RIGHT         
            BLT_THUMBS_LEFT      BLT_THUMBS_RIGHT
                         >;
                 };
